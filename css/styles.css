@@ -1,0 +1,174 @@
+/*html*/
+body, html {
+	background-color: #D9D9D9;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+p {
+	font-family: Roboto;
+	letter-spacing: .8px;
+	font-size: 1.3em;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+	text-align: center;
+	font-family: "Major Mono Display";
+	font-size: 5.5em;
+	letter-spacing: .8px;
+	padding-top: 100px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+h2 {
+	font-family: "Source Sans Pro";
+	letter-spacing: .8px;
+	font-size: 1.8em;	
+    color: #262228;
+}
+
+a {
+    color: #4484CE !important;
+    font-family: Roboto;
+}
+
+/*nav*/
+.navbar {
+	background-color: white !important;
+	border: none;
+}
+
+.nav {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1.4px;
+	font-family: Quicksand;
+	font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover {
+	background-color: #FFCE00;
+
+}
+
+a.nav-link {
+    padding-right: 60px !important;
+}
+
+a#brand.navbar-brand {
+    font-family: "Major Mono Display" !important;
+}
+/*home*/
+
+
+#home {
+	background-color: #D9D9D9;
+	margin-top: 50px;
+    padding-bottom: 360px;
+	
+}
+.greychess {
+    text-align: center;
+    margin-top: 160px;
+}
+#greychess {
+    width: 600px;
+}
+
+#mission {
+    background-color: #FFCE00;
+    padding-bottom: 360px;
+}
+
+
+#whoweare {
+    background-color: #4484CE;
+    padding-bottom: 360px;
+}
+
+#chessforfun {
+    background-color: #007849;
+    padding-bottom: 100px;
+}
+
+.chess4fun {
+    margin: 0 auto;
+}
+
+#chess4fun {
+    width: 480px;
+}
+
+#chessnation {
+    color: #373737;
+    padding-top: 30px;
+}
+
+#brand a {
+    font-family: "Major Mono Display" !important;
+}
+
+.row {
+    padding: 0 50px;
+}
+	
+/*about*/
+
+#about {
+	background-color: #8193F7;
+	
+	
+}
+
+#about-div {
+	width: 40%;
+	margin: 0 auto;
+	padding-top: 70px;
+	padding-bottom: 200px;
+}
+
+
+
+/*contact*/
+#kids {
+   background-color: #FFCE00; 
+   padding-bottom: 360px;
+}
+#contact {
+	background-color: #D9D9D9;
+    padding-bottom: 360px;
+
+}
+
+
+
+/*footer*/
+footer {
+	background-color: white;
+	bottom: 0;
+	text-align: center;
+}
+
+
+
+/*media*/
+@media only screen 
+and (min-width: 460px)
+and (max-width: 995px) {
+  
+}
+
+@media only screen
+and (max-width : 459px) {
+
+  #contact-form,
+  #about-div {
+	width: 80%;
+}
+  
+ }
