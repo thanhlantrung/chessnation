@@ -9,8 +9,8 @@ p {
 	font-family: Roboto;
 	letter-spacing: .8px;
 	font-size: 1.3em;
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 h1 {
@@ -18,21 +18,21 @@ h1 {
 	font-family: "Major Mono Display";
 	font-size: 5.5em;
 	letter-spacing: .8px;
-	padding-top: 100px;
-    color: white;
-    padding-bottom: 40px;
+	padding-top: 140px;
+  color: white;
+  padding-bottom: 40px;
 }
 
 h2 {
 	font-family: "Source Sans Pro";
 	letter-spacing: .8px;
 	font-size: 1.8em;	
-    color: #262228;
+  color: #262228;
 }
 
 a {
-    color: #4484CE !important;
-    font-family: Roboto;
+  color: #4484CE !important;
+  font-family: Roboto;
 }
 
 /*nav*/
@@ -57,11 +57,19 @@ a {
 }
 
 a.nav-link {
-    padding-right: 60px !important;
+  padding-right: 60px !important;
 }
 
 a#brand.navbar-brand {
-    font-family: "Major Mono Display" !important;
+  font-family: "Major Mono Display" !important;
+}
+
+.lang-link {
+  padding-right: 5px;
+  color: #373737 !important;
+  vertical-align: -webkit-baseline-middle;
+  font-size: 12px;
+  padding: 8px 4px;
 }
 /*home*/
 
@@ -69,60 +77,66 @@ a#brand.navbar-brand {
 #home {
 	background-color: #D9D9D9;
 	margin-top: 50px;
-    padding-bottom: 360px;
+  padding-bottom: 360px;
 	
 }
+
 .greychess {
-    text-align: center;
-    margin-top: 160px;
+  text-align: center;
+  margin-top: 160px;
 }
+
 #greychess {
-    width: 600px;
+  width: 600px;
+}
+
+@media screen and (max-width: 619px) {
+  #greychess {
+    width: 100%;
+  }
 }
 
 #mission {
-    background-color: #FFCE00;
-    padding-bottom: 360px;
+  background-color: #FFCE00;
+  padding-bottom: 360px;
 }
 
 
 #whoweare {
-    background-color: #4484CE;
-    padding-bottom: 360px;
+  background-color: #4484CE;
+  padding-bottom: 360px;
 }
 
 #chessforfun {
-    background-color: #007849;
-    padding-bottom: 100px;
+  background-color: #007849;
+  padding-bottom: 100px;
 }
 
 .chess4fun {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 #chess4fun {
-    width: 480px;
+  width: 480px;
 }
 
 #chessnation {
-    color: #373737;
-    padding-top: 30px;
+  color: #373737;
+  padding-top: 30px;
 }
 
 #brand a {
-    font-family: "Major Mono Display" !important;
+  font-family: "Major Mono Display" !important;
 }
 
 .row {
-    padding: 0 50px;
+  padding: 0 50px;
 }
 	
 /*about*/
 
 #about {
 	background-color: #8193F7;
-	
-	
 }
 
 #about-div {
@@ -136,13 +150,13 @@ a#brand.navbar-brand {
 
 /*contact*/
 #kids {
-   background-color: #FFCE00; 
-   padding-bottom: 360px;
+  background-color: #FFCE00; 
+  padding-bottom: 360px;
 }
+
 #contact {
 	background-color: #D9D9D9;
-    padding-bottom: 360px;
-
+  padding-bottom: 360px;
 }
 
 
@@ -168,7 +182,6 @@ and (max-width : 459px) {
 
   #contact-form,
   #about-div {
-	width: 80%;
+	 width: 80%;
+  }
 }
-  
- }
