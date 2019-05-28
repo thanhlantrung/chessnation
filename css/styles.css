@@ -146,6 +146,35 @@ a#brand.navbar-brand {
 	padding-bottom: 200px;
 }
 
+.team-member {
+  display: inline-block;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+.img-circle {
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  align-self: auto;
+  margin: 0 auto;
+  background-size: contain;
+  margin-bottom: 20px;
+}
+
+#frank {
+  background-image: url("../img/frank.jpg");
+}
+
+#jarek {
+  background-image: url("../img/jarek.jpg");
+}
+
+#artur {
+  background-image: url("../img/artur.jpg");
+}
 
 
 /*contact*/
