@@ -153,6 +153,7 @@ a#brand.navbar-brand {
 h2 {
   text-align: center;
   color: white;
+  font-family: Roboto;
 }
 .img-circle {
   border-radius: 50%;
@@ -164,6 +165,10 @@ h2 {
   margin-bottom: 20px;
 }
 
+.person-about-text {
+  text-align: justify;
+  padding: 0 10px;
+}
 #frank {
   background-image: url("../img/frank.jpg");
 }
