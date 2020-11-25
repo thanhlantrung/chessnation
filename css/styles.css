@@ -8,41 +8,41 @@ body, html {
 p {
 	font-family: Roboto;
 	letter-spacing: .8px;
-	font-size: 1.3em;
-  color: white;
+	font-size: 1em;
   text-align: center;
 }
 
 h1 {
 	text-align: center;
-	font-family: "Major Mono Display";
-	font-size: 5.5em;
+	font-family: Roboto;
+	font-size: 3em;
 	letter-spacing: .8px;
 	padding-top: 140px;
-  color: white;
   padding-bottom: 40px;
 }
 
 h2 {
-	font-family: "Source Sans Pro";
+	text-align: center;
+  font-family: Roboto;
 	letter-spacing: .8px;
 	font-size: 1.8em;	
-  color: #262228;
 }
 
 a {
-  color: #4484CE !important;
   font-family: Roboto;
 }
 
+#logo {
+  width: 100px;
+}
 /*nav*/
 .navbar {
-	background-color: white !important;
+	background-color: #D9D9D9 !important;
 	border: none;
+  /*text-transform: uppercase;*/
 }
 
 .nav {
-	color: white;
 	text-transform: uppercase;
 	letter-spacing: 1.4px;
 	font-family: Quicksand;
@@ -58,10 +58,14 @@ a {
 
 a.nav-link {
   padding-right: 60px !important;
+  color: black;
 }
 
 a#brand.navbar-brand {
-  font-family: "Major Mono Display" !important;
+  /*font-family: "Major Mono Display" !important;*/
+  
+background-image: url("../img/testchesslogo.png");
+
 }
 
 .lang-link {
@@ -97,18 +101,18 @@ a#brand.navbar-brand {
 }
 
 #mission {
-  background-color: #FFCE00;
+  /*background-color: #FFCE00;*/
   padding: 50px 140px 120px;
 }
 
 
 #whoweare {
-  background-color: #4484CE;
+  /*background-color: #4484CE;*/
   padding-bottom: 120px;
 }
 
 #chessforfun {
-  background-color: #007849;
+  /*background-color: #007849;*/
   padding-bottom: 120px;
 }
 
@@ -150,11 +154,6 @@ a#brand.navbar-brand {
   display: inline-block;
 }
 
-h2 {
-  text-align: center;
-  color: white;
-  font-family: Roboto;
-}
 .img-circle {
   border-radius: 50%;
   width: 140px;
@@ -183,10 +182,6 @@ h2 {
 
 
 /*contact*/
-#kids {
-  background-color: #FFCE00; 
-  padding-bottom: 360px;
-}
 
 #contact {
 	background-color: #D9D9D9;
@@ -197,7 +192,7 @@ h2 {
 
 /*footer*/
 footer {
-	background-color: white;
+	
 	bottom: 0;
 	text-align: center;
 }
