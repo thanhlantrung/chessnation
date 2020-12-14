@@ -117,6 +117,10 @@ a#brand.navbar-brand {
   padding-bottom: 120px;
 }
 
+.wwa {
+  padding-top: 0;
+}
+
 #chessforfun,
 #mission {
   /*background-color: #007849;*/
@@ -131,6 +135,10 @@ a#brand.navbar-brand {
   }
 }
 
+.email {
+  text-align: left;
+  margin-left: 10px;
+}
 .chess4fun {
   margin: 0 auto;
 }
@@ -211,7 +219,6 @@ a#brand.navbar-brand {
 	background-color: #D9D9D9;
   padding-bottom: 360px;
 }
-
 
 
 /*footer*/
