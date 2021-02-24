@@ -9,7 +9,7 @@ p {
 	font-family: Quicksand;
 	letter-spacing: .8px;
 	font-size: 1em;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 h1 {
@@ -123,7 +123,7 @@ a#brand.navbar-brand {
 }
 
 #chessforfun,
-#mission {
+#mission, #contact {
   /*background-color: #007849;*/
   padding: 0px 250px 120px;
   /*padding-bottom: 120px;*/
@@ -140,13 +140,13 @@ a#brand.navbar-brand {
   text-align: left;
   margin-left: 10px;
 }
-.chess4fun {
+/*.chess4fun {
   margin: 0 auto;
 }
 
 #chess4fun {
   width: 480px;
-}
+}*/
 
 #chessnation {
   color: #373737;
@@ -216,11 +216,11 @@ a#brand.navbar-brand {
 
 /*contact*/
 
-#contact {
+/*#contact {
 	background-color: #D9D9D9;
   padding-bottom: 360px;
 }
-
+*/
 
 /*footer*/
 footer {
