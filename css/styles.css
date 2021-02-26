@@ -131,14 +131,15 @@ a#brand.navbar-brand {
 
 @media screen and (max-width: 1199px) {
   #chessforfun,
-  #mission {
-    padding: 0px 100px 120px;
+  #mission, #contact {
+    padding: 0px 50px 120px;
   }
 }
 
 .email {
   text-align: left;
   margin-left: 10px;
+  margin-bottom: 50px;
 }
 /*.chess4fun {
   margin: 0 auto;
@@ -213,6 +214,17 @@ a#brand.navbar-brand {
   background-image: url("../img/arturcropped.jpg");
 }
 
+#thanh {
+  background-image: url("../img/thanh2.jpg");
+}
+
+#marek {
+  background-image: url("../img/marek.jpg");
+}
+
+#gonzalo {
+  background-image: url("../img/gonzalo.jpg");
+}
 
 /*contact*/
 
